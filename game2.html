@@ -1,0 +1,44 @@
+
+
+
+<html>
+	<head>
+		<title>Reaction Timer</title>
+		<link rel="stylesheet" type="text/css" href="game2.css">
+	</head>
+	<body>
+		<div id="topbar-container">
+			<div id="logo">
+				<a href="homepage.html"><img id="topbarlogo" src="logo.png"></a>
+			</div>
+			<div id="topbarname" id="logoname">
+				<a href="homepage.html"><img src="logoname.png"></a>
+			</div>
+			<div class="topbar"><a class="topbar-link" href="about.html">About</a></div>
+			<div class="topbar"><a class="topbar-link" href="support.html">Support</a></div>
+		</div>
+		<div class="clear"></div>
+		<div id="contentspace">
+			<div id="maincontent-container">
+				<h1>Tic-tac-toe</h1><div><p> Click here to go back: <a id="pointer"><button id="statTime">EXIT</button></a></p></div>
+				<p>Click on the boxes when its your turn<b>10</b> turns per player</p>
+				<p>
+					<label>Enter player 1 name:</label><input type="text" id="player1Name"></input>
+					<label>Enter player 2 name:</label><input type="text" id="player2Name"></input>
+					<button id="ready">Ready</button>
+					<label id="turn"></label>
+				</p>
+				<div id="gamearea">
+					<div class="leftbox topbox common" id="box1"></div><div class="topbox common" id="box2"></div><div class="topbox common" id="box3"></div>
+					<div class="clear"></div>
+					<div class="leftbox common" id="box4"></div><div class="common" id="box5"></div><div class="common" id="box6"></div>
+					<div class="clear"></div>
+					<div class="leftbox common" id="box7"></div><div class="common" id="box8"></div><div class="common" id="box9"></div>
+					<div class="clear"></div>
+				</div>
+				<div id="shape"></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="test.js"></script>
+	</body>
+</html>

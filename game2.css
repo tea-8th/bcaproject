@@ -1,0 +1,111 @@
+			html{
+				height:100% !important;
+			}
+			body{
+				margin:0px;
+				padding:0px;
+				height:100% !important;
+				font-family: sans-serif;
+			}
+			#topbar-container{
+				width:100%;
+				background-color:#171A21;
+				height:150px;
+				float:left;
+			}
+			#logo{
+				background-color:#171A21;
+				float:left;
+				width:15%;
+				height:150px;
+			}
+			#logoname{
+				background-color:#171A21;
+				float:left;
+				margin: 50px 0px 0px 10px;
+			}
+			.topbar{
+				color:white;
+				background-color:#171A21;
+				float:left;
+				width:8%;
+				height:30px;
+				margin-left:8%;
+				margin-top:100px;
+				font-family:"Arial Black", Gadget, sans-serif;
+			}
+			#topbarlogo{
+				height:150px;
+				width:100%;
+				float:left
+			}
+			#topbarname{
+				height:150px;
+				width:500px;
+				float:left;
+				padding:30px;
+			}
+			.topbar-link{
+				color:#D0D0D0;
+				text-decoration:none;
+			}
+			.topbar-link:hover{
+				color:white;
+			}
+			#contentspace{
+				background-image: linear-gradient(#194460, #1C374C, #1B2838);
+				min-height:150%;
+				width:100%;
+			}
+			#maincontent-container{
+				width:95%;
+				height:100%;
+				float:left;
+				margin-left:20px;
+				margin-top:5px;
+				border:1px solid blue;
+				background-color:white;
+			}
+			.clear{
+				clear:both;
+			}
+			#shape{
+				width:200px;
+				height:200px;
+				display:none;
+				position:relative;
+			}
+			.bold{
+				font-weight:bold;
+			}
+			#gamearea{
+				width:500px;
+				height:500px;
+				border:1px solid black;
+				margin-left:200px;
+			}
+			.common{
+				width:150px;
+				height:150px;
+				border:1px solid red;
+				float:left;
+			}
+			.leftbox{
+				margin-left:20px;
+			}
+			.topbox{
+				margin-top:20px;
+			}
+			#statTime{
+				 background-color: red;
+				 border: none;
+				 color: white;
+				 padding: 15px 32px;
+				 text-align: center;
+				 text-decoration: none;
+				 display: inline-block;
+				 font-size: 16px;
+			}
+			#statTime:hover{
+				cursor: pointer;
+			}
